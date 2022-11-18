@@ -171,3 +171,12 @@ button{
     margin-left: 20px;
     border: 1px solid #F9FAF8;
 }
+
+
+/*Footer section*/
+footer{
+    padding: 30px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
