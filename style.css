@@ -22,12 +22,10 @@ header nav ul{
 }
 
 header nav ul{
+    /* padding-top: 20px !important; */
     list-style: none;
 }
 
-header nav ul li {
-    padding: 0 10px;
-}
 
 
 header nav ul li a{
@@ -36,9 +34,13 @@ header nav ul li a{
     text-decoration: none;
 }
 
+.nav-right{
+    padding: 10px;
+}
+
 #header-logo{
     margin-right: auto;
-    color: #F9FAF8;
+    color: #F9FAF8 ;
     font-size: 24px;
     font-weight: bold;
 }
@@ -90,12 +92,17 @@ button{
     justify-content:flex-end;
 } 
 
+
 /*Random Info section*/
 #random-info-section{
-    margin-top: 20px;
+    padding: 3% 0 8% 0;
+
 }
 
 #random-info-section h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -107,12 +114,12 @@ button{
 .random-info-element{
     height: 250px;
     width: 200px;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 50px;
+    margin: 50px 20px 0 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 18px;
+    text-align: center;
 }
 
 .random-info-element img{
@@ -176,6 +183,7 @@ button{
 /*Footer section*/
 footer{
     padding: 30px;
+
     background-color: #1F2937;
     color: white;
     text-align: center;
