@@ -7,6 +7,7 @@ html,body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*Header section*/
 header{
     background-color: #1F2937;
 }
@@ -30,7 +31,7 @@ header nav ul li {
 
 
 header nav ul li a{
-    color: #E5E7EB;
+    color: #A4A9B1;
     font-size: 18px;
     text-decoration: none;
 }
@@ -49,7 +50,7 @@ header nav ul li a{
 }
 
 #header-secondary-text{
-    color: #E5E7EB;
+    color: #A4A9B1;
     font-size: 18px;
 }  
 
@@ -88,3 +89,35 @@ button{
     display: flex;
     justify-content:flex-end;
 } 
+
+/*Random Info section*/
+#random-info-section{
+    margin-top: 20px;
+}
+
+#random-info-section h2{
+    text-align: center;
+}
+
+#random-info-container{
+    display: flex;
+    justify-content: center;
+}
+
+.random-info-element{
+    height: 250px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.random-info-element img{
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3b82f6;
+    border-radius: 10px;
+}
