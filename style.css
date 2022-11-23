@@ -22,11 +22,8 @@ header nav ul{
 }
 
 header nav ul{
-    /* padding-top: 20px !important; */
     list-style: none;
 }
-
-
 
 header nav ul li a{
     color: #A4A9B1;
@@ -62,7 +59,8 @@ header nav ul li a{
 }
 
 header img{
-    width: 50%;
+    width: 70%;
+    height: 100%;
 }
 
 button{
@@ -183,8 +181,137 @@ button{
 /*Footer section*/
 footer{
     padding: 30px;
-
     background-color: #1F2937;
     color: white;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    header #img-container img{
+        width: 90%;
+        height: 80%;
+    }
+    
+    #header-main-text{
+        font-size: 48px;
+        font-weight: 800;
+    }
+    
+    header button{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 765px) {
+    /*Header section*/
+    #header-main-section{
+        margin: 5% 20%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    #header-main-text{
+        font-size: 40px;
+        
+    }    
+
+    #img-container{
+        display: none;
+    }
+    
+
+    /*Random Info section*/
+    #random-info-container{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    #random-element-1{
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #random-element-2{
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    #random-element-3{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    #random-element-4{
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+
+    /*Quote section*/
+    #quote-container{
+        margin: 0 10%;
+        padding: 15% 0;
+        font-size: 25px;
+    }
+
+    #quote-container span{
+        margin: 50px 35px 20px 0;
+        float: right;
+        font-size: 15px;    
+    }
+
+    /*Sign up section*/
+    #sign-up-section{
+        width: 100%;
+    }
+
+    #sign-up-section #sign-up-container{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    /*Quote section*/
+    #quote-container{
+        margin: 0 5%;
+        padding: 10% 0;
+        font-size: 25px;
+    }
+
+    #quote-container span{
+        margin: 50px 35px 0 0;
+        float: right;
+        font-size: 15px;    
+    }
+  
+    /*Random Info section*/
+    #random-info-container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    
+    #random-element-1{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    
+    #random-element-2{
+        grid-row: 2;    
+        grid-column: 1;
+    }
+    
+    #random-element-3{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    
+    #random-element-4{
+        grid-row: 4;
+        grid-column: 1;
+    }
 }
