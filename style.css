@@ -4,7 +4,8 @@
 }
 
 html,body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;        background-color: white;
+    color: black;
 }
 
 a{
@@ -14,9 +15,6 @@ a{
 
 
 /*Header section*/
-header{
-    background-color: #1F2937;
-}
 
 header h1{
     font-size: 70px !important;
@@ -36,7 +34,7 @@ header nav ul{
 }
 
 header nav ul li a{
-    color: #A4A9B1;
+    color: black;
     font-size: 18px;
     text-decoration: none;
 }
@@ -47,19 +45,17 @@ header nav ul li a{
 
 #header-logo{
     margin-right: auto;
-    color: #F9FAF8 ;
     font-size: 24px;
     font-weight: bold;
+    width: 100px;
 }
 
 #header-main-text{
-    color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
 }
 
 #header-secondary-text{
-    color: #A4A9B1;
     font-size: 25px;
 }  
 
@@ -79,14 +75,17 @@ header img{
 }
 
 button{
-    background-color: #3882F6;
-    color: white;
+    background-color: white;
+    border: 1px solid #9e0606;
     font-size: 20px;
     font-weight: bold;
-    border: none;
     border-radius: 5px;
     margin-top: 20px;
     padding: 15px 35px;
+}
+
+header button a {
+    color: black;
 }
 
 #header-main-section{
@@ -108,13 +107,16 @@ button{
 
 /*Random Info section*/
 #features-section{
+    margin-top: 7% !important;
     padding: 3% 0 8% 0;
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 15px;
 
 }
 
 #features-section h2{
-    color: #1F2937;
-    font-size: 36px;
+    font-size: 45px;
     font-weight: 800;
     text-align: center;
 }
@@ -131,30 +133,26 @@ button{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
 }
 
 .features-element img{
     height: 150px;
     width: 150px;
-    border: 4px solid #3b82f6;
     border-radius: 10px;
 }
 
 
 
 /*Quote section*/
-#quote-section{
-    background-color: #E5E7EB;
-}
 
 #quote-container{
     margin: 0 15%;
     padding: 6% 0;
     position: relative;
-    color: #1F2937;
-    font-size: 36px;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
     font-style: italic;
 }
 
@@ -186,22 +184,23 @@ button{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    background-color: #3882F6;
-    color: #F9FAF8;
+    color: black;
+    border: 1px solid #9e0606;
     border-radius: 10px;
 }
 
 #sign-up-container #sign-up-button button{
     margin-left: 20px;
-    border: 1px solid #F9FAF8;
+    background-color: black;
+    color: white;
+    border: none;
 }
 
 
 /*Footer section*/
 footer{
     padding: 30px;
-    background-color: #1F2937;
-    color: white;
+    border-radius: 10px;
     text-align: center;
 }
 
