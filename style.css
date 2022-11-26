@@ -4,18 +4,17 @@
 }
 
 html,body{
-    font-family: 'Oswald', sans-serif;        background-color: white;
-    color: black;
+    font-family: 'Oswald', sans-serif;        background-color: #ffffff;
+    color: #000000;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 
 /*Header section*/
-
 header h1{
     font-size: 70px !important;
 }
@@ -75,8 +74,8 @@ header img{
 }
 
 button{
-    background-color: white;
-    border: 1px solid #9e0606;
+    background-color: #ffffff;
+    border: 1px solid #000000;
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
@@ -85,7 +84,7 @@ button{
 }
 
 header button a {
-    color: black;
+    color: #000000;
 }
 
 #header-main-section{
@@ -105,14 +104,11 @@ header button a {
 } 
 
 
-/*Random Info section*/
+/*Features section*/
 #features-section{
     margin-top: 7% !important;
     padding: 3% 0 8% 0;
-    background-color: white;
-    margin: 0 20px;
-    border-radius: 15px;
-
+    background-color: #fafafa;
 }
 
 #features-section h2{
@@ -175,6 +171,7 @@ header button a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fafafa;
 }
 
 #sign-up-container{
@@ -184,23 +181,24 @@ header button a {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    color: black;
-    border: 1px solid #9e0606;
+    color: #000000;
+    border: 1px solid #000000;
     border-radius: 10px;
 }
 
 #sign-up-container #sign-up-button button{
     margin-left: 20px;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     border: none;
 }
 
 
 /*Footer section*/
 footer{
-    padding: 30px;
-    border-radius: 10px;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
